@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Muicheckbox from './components/Muicheckbox';
+import Muiselect from './components/Muiselect';
+import Muibutton from './components/Muibutton';
+import Muitextfield from './components/Muitextfield';
+import Muirating from './components/Muirating';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Muibutton/> */}
+    {/* <Muitextfield/> */}
+    {/* <Muiselect/> */}
+    {/* <Muicheckbox/> */}
+    <Muirating/>
+    </>
+  
   );
 }
 
